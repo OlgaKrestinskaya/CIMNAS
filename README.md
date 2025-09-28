@@ -140,14 +140,14 @@ sudo docker run --rm --gpus all nvidia/cuda:11.0.3-base-ubuntu20.04 nvidia-smi
 
 ## Usage
 
+- **Installations and debugging:**  
+  `CIMNAS/main/testAndInstallations.ipynb`
+  
 - **Run CIMNAS framework example:**  
   `CIMNAS/main/CIMNAS.ipynb`
 
 - **Test a single architecture:**  
   `CIMNAS/main/checking_singleHardwareArchitecture.ipynb`
-
-- **Installations and debugging:**  
-  `CIMNAS/main/testAndInstallations.ipynb`
 
 For quantization-aware fine-tuning (to get actual accuracy):  
 follow `CIMNAS/main/real_accuracy` instructions.
