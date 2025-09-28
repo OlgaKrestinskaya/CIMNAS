@@ -95,7 +95,7 @@ These require Docker with `sudo` (admin) access.
 Follow steps similar to [CiMLoop](https://github.com/mit-emze/cimloop):
 
 ```bash
-git clone https://github.com/mit-emze/cimloop.git
+git clone https://github.com/OlgaKrestinskaya/CIMNAS.git
 cd CIMNAS
 export DOCKER_ARCH=<your processor architecture>  # e.g., amd64
 docker-compose pull
@@ -103,7 +103,7 @@ docker-compose up
 ```
 
 > **ARM64** is supported by Timeloop and Accelergy Docker,  
-> but is marked *unstable* ? building from source is recommended on ARM.
+> but is marked *unstable* - building from source is recommended on ARM as per [CiMLoop](https://github.com/mit-emze/cimloop).
 
 Access JupyterLab from your browser (unless port mapping is changed):  
 `http://127.0.0.1:8888/lab`
@@ -113,7 +113,7 @@ Access JupyterLab from your browser (unless port mapping is changed):
 ## GPU Support
 
 The `docker-compose.yaml` in this repository has been updated to support GPU.  
-If you do **not** want GPU support, you can use CiMLoop?s original instructions,  
+If you do **not** want GPU support, you can use CiMLoop's original instructions,  
 but you must adjust the PyTorch code where GPU support is set by default.
 
 **Troubleshooting NVIDIA GPU with Docker**
