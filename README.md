@@ -34,9 +34,9 @@ CIMNAS/
 -- --checking_singleHardwareArchitecture.ipynb  # Test a single architecture
 -- --testAndInstallations.ipynb    # Installation and debugging instructions
 -- --real_accuracy/                # Quantization-aware fine-tuning
--- --APQ/                           # Accuracy predictor & OFA models
--- models/                           # Models supported by CiMLoop + modifications
--- dataset/                           # Placeholder for ImageNet data
+-- --APQ/                          # Accuracy predictor & OFA models
+-- models/                         # Models supported by CiMLoop + modifications
+-- dataset/                        # Placeholder for ImageNet data
 ```
 
 - **Accuracy predictor**: CIMNAS operates on predicted accuracy.  
