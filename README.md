@@ -68,10 +68,10 @@ Before running the code:
    (currently only a few example files are included in the repo).
 
 2. **Model checkpoints**  
-   If CIMNAS/main/APQ/models doesn't contain >_acc_quant.pt and >_imagenet-OFA:
+   If CIMNAS/main/APQ/models doesn't contain _acc_quant.pt_ and _imagenet-OFA_:
    Download checkpoints for:
-   - Quantization-aware predictor (`acc_quant.pt`)
-   - Once-for-All network (`imagenet-OFA`)
+   - Quantization-aware predictor [(`acc_quant.pt`)](https://drive.google.com/file/d/1onIxkfLF-QCxi9YxzwQt6SpAaYNJBUDs/view?usp=sharing)
+   - Once-for-All network [(`imagenet-OFA`)](https://drive.google.com/file/d/1k9tv1ISsB-QDENspiuR82rDvaIYGIKD5/view?usp=sharing)
    
    Place them in:
    ```
