@@ -40,7 +40,7 @@ CIMNAS/
 ```
 
 - **Accuracy predictor**: CIMNAS operates on predicted accuracy.  
-  Actual accuracy can be obtained via **quantization-aware fine-tuning** (as in APQ) ?  
+  Actual accuracy can be obtained via **quantization-aware fine-tuning** (as in APQ) -  
   see `main/real_accuracy` for instructions.
 
 ---
