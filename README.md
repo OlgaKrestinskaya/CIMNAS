@@ -61,13 +61,14 @@ Required libraries are listed in:
 Before running the code:
 
 1. [**ImageNet dataset**](http://www.image-net.org/)  
-   Download as shown in APQ and place in:
+   Download (as shown in [APQ](https://github.com/mit-han-lab/apq/tree/master?tab=readme-ov-file#dataset-and-model-preparation)) and place in:
    ```
    CIMNAS/dataset
    ```
    (currently only a few example files are included in the repo).
 
 2. **Model checkpoints**  
+   If CIMNAS/main/APQ/models doesn't contain _acc_quant.pt and _imagenet-OFA:
    Download checkpoints for:
    - Quantization-aware predictor (`acc_quant.pt`)
    - Once-for-All network (`imagenet-OFA`)
