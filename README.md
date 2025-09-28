@@ -1,4 +1,3 @@
-# CIMNAS
 # CIMNAS: A Joint Framework for Compute-In-Memory-Aware Neural Architecture Search
 
 This repository contains the official implementation of  
