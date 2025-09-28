@@ -89,7 +89,7 @@ Before running the code:
 
 ## Installation and Initial Run
 
-CIMNAS is built on **CiMLoop**, which itself depends on **Timeloop** and **Accelergy**.  
+CIMNAS is built on [**CiMLoop**](https://github.com/mit-emze/cimloop/tree/main), which itself depends on [**Timeloop** and **Accelergy**](https://github.com/Accelergy-Project/timeloop-accelergy-exercises).  
 These require Docker with `sudo` (admin) access.
 
 Follow steps similar to [CiMLoop](https://github.com/mit-emze/cimloop):
