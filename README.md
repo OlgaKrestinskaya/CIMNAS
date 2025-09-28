@@ -115,7 +115,7 @@ Access JupyterLab from your browser (unless port mapping is changed):
 ## GPU Support
 
 The `docker-compose.yaml` in this repository has been updated to support GPU.  
-If you do **not** want GPU support, you can use CiMLoop's original instructions,  
+If you do **not** want GPU support, you can use CiMLoop's original instructions (you can replace the _docker-compose.yaml_ file content by the content in _docker-compose.yaml_ file from [CiMLoop](https://github.com/mit-emze/cimloop)),  
 but you must adjust the PyTorch code where GPU support is set by default.
 
 **Troubleshooting NVIDIA GPU with Docker**
@@ -158,6 +158,8 @@ If you need code for **two-stage search**, **expert-like search**, or other expe
 
 ## Acknowledgments
 
+
+
 CIMNAS builds on:
 
 - [CiMLoop](https://github.com/mit-emze/cimloop)
@@ -166,7 +168,3 @@ CIMNAS builds on:
 We thank the maintainers of these projects for their foundational work.
 
 ---
-
-## License
-
-To be added.
