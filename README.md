@@ -60,8 +60,8 @@ Required libraries are listed in:
 
 Before running the code:
 
-1. [**ImageNet dataset**](http://www.image-net.org/)  
-   Download (as shown in [APQ](https://github.com/mit-han-lab/apq/tree/master?tab=readme-ov-file#dataset-and-model-preparation)) and place in:
+1. **ImageNet dataset**
+   Download [ImageNet dataset](http://www.image-net.org/) (as shown in [APQ](https://github.com/mit-han-lab/apq/tree/master?tab=readme-ov-file#dataset-and-model-preparation)) and place in:
    ```
    CIMNAS/dataset
    ```
