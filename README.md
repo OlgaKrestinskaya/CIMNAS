@@ -2,7 +2,7 @@
 # CIMNAS: A Joint Framework for Compute-In-Memory-Aware Neural Architecture Search
 
 This repository contains the official implementation of  
-**CIMNAS: A Joint Model?Quantization?Hardware Optimization Framework for CIM Architectures**.
+**CIMNAS: A Joint Model-Quantization-Hardware Optimization Framework for CIM Architectures**.
 
 > **Authors:** Olga Krestinskaya, Mohammed E. Fouda, Ahmed Eltawil, and Khaled N. Salama  
 > Accepted to **IEEE TCAS-AI**
