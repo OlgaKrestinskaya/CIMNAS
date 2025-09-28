@@ -9,35 +9,6 @@
 #    The READMEs are put in ./workspace
 #    The workspace will be owned by $USER_UID:$USER_GID
 # 
-#this helps with proper installation: 
-# https://medium.com/@jared.ratner2/setting-up-docker-and-docker-compose-with-nvidia-gpu-support-on-linux-716db95c0f7c
-# 
-#After reinstalling the cuda drivers, cuda toolkit and container toolkit, I was still getting the error. 
-#Issue got resolved by just reinstalling docker-ce using: 
-# sudo apt-get install --reinstall docker-ce
-# NEW REINSTALLATION COMMANS TO KEEP MY VERSION (this wroks):
-# sudo apt-get install --reinstall docker-ce=5:27.5.1-1~ubuntu.20.04~focal 
-# sudo apt-mark hold docker-ce
-#
-#
-#
-#uninstall docker:
-#https://docs.docker.com/engine/install/ubuntu/
-#https://docs.docker.com/engine/install/ubuntu/#uninstall-docker-engine
-#hold from updates:
-# sudo apt-mark hold containerd.io docker-ce-rootless-extras docker-buildx-plugin docker-compose-plugin docker-ce docker-ce-cli
-# sudo apt-mark hold docker docker-ce docker-ce-cli containerd.io docker-compose-plugin
-# I also remove unattanded upgrades:
-# sudo nano /etc/apt/apt.conf.d/50unattended-upgrades
-# Unattended-Upgrade::Package-Blacklist {
-#  "docker"
-#  "docker-ce";
-#  "docker-ce-cli";
-#  "containerd.io";
-#  "docker-compose-plugin";
-#  "docker-ce-rootless-extras";
-#  "docker-buildx-plugin";
-
 # Run as follows:
 #
 #    1) Cd to the directory containing this file
