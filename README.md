@@ -49,6 +49,7 @@ CIMNAS/
 
 - **Processor:** Multi-core CPU (64 cores used in our experiments recommended for faster search)
 - **GPU:** Recommended for speed (not mandatory, but accuracy prediction will be slower without it)
+- **GPU required for quantization-aware fine-tuning:** Needed to obtain the actual accuracy of the network found by the search (which is based on the accuracy predictor).
 
 Required libraries are listed in:  
 `CIMNAS/main/testAndInstallations.ipynb`
