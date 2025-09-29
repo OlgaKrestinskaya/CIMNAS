@@ -55,37 +55,6 @@ Required libraries are listed in:
 
 ---
 
-## Data and Models
-
-Before running the code:
-
-1. **ImageNet dataset**
-   Download [ImageNet dataset](http://www.image-net.org/) (as shown in [APQ](https://github.com/mit-han-lab/apq/tree/master?tab=readme-ov-file#dataset-and-model-preparation)) and place in:
-   ```
-   CIMNAS/dataset
-   ```
-   (currently only a few example files are included in the repo).
-
-2. **Model checkpoints**  
-   If _CIMNAS/main/APQ/models_ doesn't contain _acc_quant.pt_ and _imagenet-OFA_:
-   Download checkpoints for:
-   - Quantization-aware predictor [(`acc_quant.pt`)](https://drive.google.com/file/d/1onIxkfLF-QCxi9YxzwQt6SpAaYNJBUDs/view?usp=sharing)
-   - Once-for-All network [(`imagenet-OFA`)](https://drive.google.com/file/d/1k9tv1ISsB-QDENspiuR82rDvaIYGIKD5/view?usp=sharing)
-   
-   Place them in:
-   ```
-   CIMNAS/main/APQ/models
-   ```
-   If you plan to run quantization-aware fine-tuning, also place these models in:
-   ```
-   CIMNAS/main/real_accuracy/models
-   ```
-   and make ImageNet available in  
-   `CIMNAS/main/real_accuracy/dataset/imagenet`  
-   (you can use a symbolic link to avoid duplication).
-
----
-
 ## Installation and Initial Run
 
 CIMNAS is built on [**CiMLoop**](https://github.com/mit-emze/cimloop/tree/main), which itself depends on [**Timeloop** and **Accelergy**](https://github.com/Accelergy-Project/timeloop-accelergy-exercises).  
@@ -134,6 +103,37 @@ Check NVIDIA support:
 sudo docker run --rm --gpus all nvidia/cuda:11.0.3-base-ubuntu20.04 nvidia-smi
 ```
 (or adapt to your CUDA/Ubuntu version).
+
+---
+
+## Data and Models
+
+Before running the code:
+
+1. **ImageNet dataset**
+   Download [ImageNet dataset](http://www.image-net.org/) (as shown in [APQ](https://github.com/mit-han-lab/apq/tree/master?tab=readme-ov-file#dataset-and-model-preparation)) and place in:
+   ```
+   CIMNAS/dataset
+   ```
+   (currently only a few example files are included in the repo).
+
+2. **Model checkpoints**  
+   If _CIMNAS/main/APQ/models_ doesn't contain _acc_quant.pt_ and _imagenet-OFA_:
+   Download checkpoints for:
+   - Quantization-aware predictor [(`acc_quant.pt`)](https://drive.google.com/file/d/1onIxkfLF-QCxi9YxzwQt6SpAaYNJBUDs/view?usp=sharing)
+   - Once-for-All network [(`imagenet-OFA`)](https://drive.google.com/file/d/1k9tv1ISsB-QDENspiuR82rDvaIYGIKD5/view?usp=sharing)
+   
+   Place them in:
+   ```
+   CIMNAS/main/APQ/models
+   ```
+   If you plan to run quantization-aware fine-tuning, also place these models in:
+   ```
+   CIMNAS/main/real_accuracy/models
+   ```
+   and make ImageNet available in  
+   `CIMNAS/main/real_accuracy/dataset/imagenet`  
+   (you can use a symbolic link to avoid duplication).
 
 ---
 
