@@ -12,12 +12,13 @@ This repository contains the official implementation of
 
 CIMNAS simultaneously searches across **software parameters**, **quantization policies**, and a broad range of **hardware parameters**,  
 incorporating **device-, circuit-, and architecture-level co-optimizations**.  
+
+![Alt text](f1new.jpeg)
+
 The framework is built on top of:
 
 - [**CiMLoop**](https://github.com/mit-emze/cimloop/tree/main)  
 - [**APQ**](https://github.com/mit-han-lab/apq/tree/master?tab=readme-ov-file#dataset-and-model-preparation)
-
-> _Illustrative figure to be added here._
 
 - **Paper:** (link will be added)  
 - **Citation:** (to be added)
