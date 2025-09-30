@@ -10,8 +10,7 @@ This repository contains the official implementation of
 
 ## Overview
 
-CIMNAS simultaneously searches across **software parameters**, **quantization policies**, and a broad range of **hardware parameters**,  
-incorporating **device-, circuit-, and architecture-level co-optimizations**.  
+CIMNAS simultaneously searches across **software parameters**, **quantization policies**, and a broad range of **hardware parameters**, incorporating **device-, circuit-, and architecture-level co-optimizations**.  
 
 ![Alt text](f1new.jpg)
 
