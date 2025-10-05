@@ -5,6 +5,7 @@ This repository contains the official implementation of
 
 > **Authors:** Olga Krestinskaya, Mohammed E. Fouda, Ahmed Eltawil, and Khaled N. Salama  
 > Accepted to **IEEE TCAS-AI**
+> Paper links: [ARXiV](https://arxiv.org/abs/2509.25862), [IEEEXplore](https://ieeexplore.ieee.org/document/11190045)
 
 ---
 
