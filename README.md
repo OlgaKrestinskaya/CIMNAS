@@ -22,9 +22,7 @@ The framework is built on top of:
 
 ___
 
-## Citation
-
-If you use this work, please cite:
+**If you use this work, please cite:**
 
 ```bibtex
 @ARTICLE{krestinskaya2025cimnas,
