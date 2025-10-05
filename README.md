@@ -20,6 +20,8 @@ The framework is built on top of:
 - [**CiMLoop**](https://github.com/mit-emze/cimloop/tree/main)  
 - [**APQ**](https://github.com/mit-han-lab/apq/tree/master?tab=readme-ov-file#dataset-and-model-preparation)
 
+___
+
 ## Citation
 
 If you use this work, please cite:
@@ -31,7 +33,7 @@ If you use this work, please cite:
   title={CIMNAS: A Joint Framework for Compute-In-Memory-Aware Neural Architecture Search}, 
   year={2025},
   pages={1-13},
-  doi={10.1109/TCASAI.2025.3617422}}
+  doi={10.1109/TCASAI.2025.3617422}}```
 
 ---
 
