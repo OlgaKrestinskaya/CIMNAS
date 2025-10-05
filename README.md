@@ -20,8 +20,7 @@ The framework is built on top of:
 - [**CiMLoop**](https://github.com/mit-emze/cimloop/tree/main)  
 - [**APQ**](https://github.com/mit-han-lab/apq/tree/master?tab=readme-ov-file#dataset-and-model-preparation)
 
-- **Paper:** (link will be added)  
-- **Citation:** (to be added)
+**Citation:** (to be added)
 
 ---
 
