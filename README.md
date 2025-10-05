@@ -33,7 +33,8 @@ If you use this work, please cite:
   title={CIMNAS: A Joint Framework for Compute-In-Memory-Aware Neural Architecture Search}, 
   year={2025},
   pages={1-13},
-  doi={10.1109/TCASAI.2025.3617422}}```
+  doi={10.1109/TCASAI.2025.3617422}
+}
 
 ---
 
