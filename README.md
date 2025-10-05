@@ -4,7 +4,7 @@ This repository contains the official implementation of
 **CIMNAS: A Joint Model-Quantization-Hardware Optimization Framework for CIM Architectures**.
 
 > **Authors:** Olga Krestinskaya, Mohammed E. Fouda, Ahmed Eltawil, and Khaled N. Salama  
-> Accepted to **IEEE TCAS-AI**  
+> Accepted to **IEEE Transactions on Circuits and Systems for Artificial Intelligence (IEEE TCAS-AI)**  
 > Paper links: [arXiv](https://arxiv.org/abs/2509.25862), [IEEEXplore](https://ieeexplore.ieee.org/document/11190045)
 
 ---
